@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:text="配置新的Air相机"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/cancel_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/back_x" />
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/tip_img_layout"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:background="#b3b3b3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="开启Air相机的示意图"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tip_img_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请开启Air相机，并将手机与Air相机靠近"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="70dp"
+        android:background="#63b8ff"
+        android:text="下一步"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

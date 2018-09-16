@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AirCam</string>
+    <string name="action_settings">Settings</string>
+    <string name="connect_error_tips">1.确保相机一直为开机状态，并在手机附近。 \n2.确保手机蓝牙已经打开。 \n3.如果一直连接不上，请联系相关技术人员。</string>
+</resources>

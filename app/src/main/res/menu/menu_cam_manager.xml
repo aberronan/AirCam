@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CamManagerActivity">
+    <item
+        android:id="@+id/config_new_cam"
+        android:orderInCategory="100"
+        android:title="配置新的Air相机"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/check_app_new"
+        android:orderInCategory="100"
+        android:title="检查应用更新"
+        app:showAsAction="never" />
+</menu>

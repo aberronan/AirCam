@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/wifi_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/wifi_lock" />
+
+    <TextView
+        android:id="@+id/wifi_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@+id/right_icon"
+        android:layout_toRightOf="@+id/wifi_icon"
+        android:textColor="@color/default_text_color"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/right_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/refresh"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/cam_icon"
+        android:background="#d3d3d3" />
+
+</RelativeLayout>
